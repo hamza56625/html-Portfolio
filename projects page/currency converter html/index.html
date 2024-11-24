@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/pngwing.com (2).png" alt="logo">
+        <h1>Currency Converter</h1>
+    </header>
+    <div class="container">
+        <form>
+            <div class="amount-container">
+                <p>Enter Amount: </p>
+                <input type="text" name="amount" value="1">
+            </div>
+            <p>From:</p>
+            <div class="dropdown">
+                <div id="from-flag">
+                    <img id="flag-from" src="https://flagsapi.com/US/shiny/64.png" alt="flag">
+                </div>
+                <div id="from-currency">
+                    <select name="from" id="">
+                    </select>
+                </div>
+            </div>
+            <p>To:</p>
+            <div class="dropdown">
+                <div id="to-flag">
+                    <img id="flag-to" src="https://flagsapi.com/PK/shiny/64.png" alt="flag">
+                </div>
+                <div id="to-currency">
+                    <select name="to" id="">
+                    </select>
+                </div>
+            </div>
+                <div class="msg-box">
+                    <p id="msg">0 USD = 0 PKR</p>
+                </div>
+            <div class="btn">
+                <button>Convert</button>
+            </div>
+        </form>
+    </div>
+    <div class="ft">
+        <footer>copy&: All rights reserve.</footer>
+    </div>
+    <script src="country.js"></script>
+    <script src="script.js"> </script>
+</body>
+</html>

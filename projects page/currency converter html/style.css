@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding-inline: 0;
+}
+body{
+    background: linear-gradient(100deg, rgb(150, 109, 189),rgb(212, 120, 136));
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    color: white;
+    
+}
+header img{
+    height: 50px;
+    width: 50px;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    background-color: rgb(0,0,0,0.3);
+    border-radius: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+.amount-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding:10px 0px;
+}
+.amount-container p,input{
+    
+    border-radius: 2rem;
+    border:none
+}
+.amount-container input{
+    padding: 5px;
+}
+.dropdown{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown select{
+    border: none;
+    border-radius: 2rem;
+    padding:5px;
+}
+.btn{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+}
+.msg-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 30px;
+    width: 100px;
+    border: solid   grey;
+    border-radius: 2rem;
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.ft{
+    margin-top:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+

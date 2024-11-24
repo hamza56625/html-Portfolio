@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: no-repeat linear-gradient(
+        45deg,#ff0000,#ff7300,yellow
+    );
+
+}
+h1{
+    color: g;
+    color: #fffffa;
+    text-align: center;
+    padding:10px;
+    font-size: 3rem;
+    text-shadow: 3px 3px 2px #5c5c5a;
+}
+.turn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.turn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #fffffa;
+    border-radius: 1rem;    
+}
+.turn{
+    color: #fffffa;
+    font-size: 1rem;
+    padding: 5px 56px;
+    border-radius: 1rem;
+}
+.turn-background-color{
+    background-color: red;
+}
+.game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px ;
+}
+.game-board{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.btn{
+    height: 116.6px;
+    width: 116.6px;
+    border: none;
+    font-size: 4rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 5px #5c5c5a;
+}
+.reset-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+#set{
+    height:50px;
+    width: 150px;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    background-color: #5c5c5a;
+}
+.btn:hover{
+    height: 118px;
+    width: 118px;
+    opacity: 80%;
+    cursor: pointer;
+}
+#set:hover{
+    border-color: greenyellow;
+    cursor: pointer;
+}
+footer{
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    color: #fffffa;
+}
+
+
+
+
+
